@@ -18,8 +18,8 @@ RUN yum -y install openssh-server && \
 ssh-keygen -A
 
 #install ansible
-RUN  yum -y install epel-release && \
-yum -y install ansible
+#RUN  yum -y install epel-release && \
+#yum -y install ansible
 
 #install python3 and pip
 RUN  yum -y groupinstall "Development Tools" && \

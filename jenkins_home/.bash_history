@@ -49,3 +49,9 @@ ssh -i remote remote_user@remote_host
 rm -rf /var/jenkins_home/.ssh/known_hosts 
 ssh -i remote remote_user@remote_host
 exit
+cd /var/jenkins_home/ansible/
+ls -lrt
+ls -lrt
+cd ..
+pwd
+exit
