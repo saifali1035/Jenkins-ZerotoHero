@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-02-11 03:33:55.790 UTC</timestamp>
+  <md5sum>c7bb6bd3374829e14b2622f24c42c71a</md5sum>
+  <fileName>Credential id=MY_SQL_PASS name=MY_SQL_PASS</fileName>
+  <usages>
+    <entry>
+      <string>db backup to s3</string>
+      <ranges>1-5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

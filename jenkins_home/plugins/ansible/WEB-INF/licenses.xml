@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<l:dependencies xmlns:l='licenses' groupId='org.jenkins-ci.plugins' artifactId='ansible' version='148.v6b_13c6de3a_47'><l:dependency name='Jenkins Ansible plugin' groupId='org.jenkins-ci.plugins' artifactId='ansible' version='148.v6b_13c6de3a_47' url=''><l:description>Ansible support in Jenkins</l:description><l:license name='Apache License, Version 2.0' url='http://www.apache.org/licenses/LICENSE-2.0.txt'/></l:dependency></l:dependencies>

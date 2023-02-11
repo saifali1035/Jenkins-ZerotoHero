@@ -1,0 +1,20 @@
+Started by user [8mha:////4OOX9pJOArpKNR7Y/uk2JCDwOieTCHD44SAdW8aRsCRjAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZe/dLi1CL9rNS87My8YgAThaClwgAAAA==[0msaif Ali
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/db backup to s3
+[SSH] script:
+MY_DB_PASS=**********
+MYSQL_SERVER_NAME="db_host"
+AWS_SECRET_KEY=**********
+DATABASE_NAME="test"
+AWS_BUCKET_NAME="jenkins-zerotohero-bucket"
+
+/home/remote_user/backup.sh $MYSQL_SERVER_NAME $MY_DB_PASS $DATABASE_NAME $AWS_SECRET_KEY $AWS_BUCKET_NAME
+
+[SSH] executing...
+uploading the data into jenkins-zerotohero-bucket
+Completed 1.6 KiB/1.6 KiB (3.0 KiB/s) with 1 file(s) remainingupload: ../../tmp/db-03-42-26.sql to s3://jenkins-zerotohero-bucket/db-03-42-26.sql
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

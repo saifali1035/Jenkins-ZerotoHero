@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2023-02-11 03:33:55.842 UTC</timestamp>
+  <md5sum>76ee7e07cca39dd4e84c74f05a4d7c73</md5sum>
+  <fileName>Credential id=AWS_SECRET_ACCESS_KEY name=AWS_SECRET_ACCESS_KEY</fileName>
+  <usages>
+    <entry>
+      <string>db backup to s3</string>
+      <ranges>1-5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

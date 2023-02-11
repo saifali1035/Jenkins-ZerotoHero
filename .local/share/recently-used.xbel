@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///media/jenkins/VBox_GAs_7.0.6/runasroot.sh" added="2023-02-10T14:51:39.820275Z" modified="2023-02-10T14:51:46.969179Z" visited="2023-02-10T14:51:39.820275Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2023-02-10T14:51:39.820276Z" count="1"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gedit %U&apos;" modified="2023-02-10T14:51:46.969177Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/jenkins/VBox_GAs_7.0.6/autorun.sh" added="2023-02-10T14:56:19.506045Z" modified="2023-02-10T14:56:19.506051Z" visited="2023-02-10T14:56:19.506047Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2023-02-10T14:56:19.506049Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
