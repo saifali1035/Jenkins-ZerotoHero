@@ -229,3 +229,49 @@ git push -u origin master
 ls -lrt
 echo "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"> git_token
 ls -lrt
+git status
+ls
+cat git_token 
+git add .
+git commit -m "Added ansible playbook and host file"
+git push -u origin master
+docker ps
+docker network
+docker show network
+docker network show
+docker network ls
+docker network rm wownet 
+docker network rm none
+docker network ls
+cd jenkins_home/ansible/
+ls
+cd 
+docker-compose up -d
+docker-compose ps
+cd jenkins_home/ansible/
+ls -ler
+docker exec -it jenkins bash
+cd
+git status
+git add .
+ls -lrt
+sudo chown -R jenkins:jenkins db_home/
+git add .
+git commit -m "Everything working before challenge"
+git push -u origin master
+ls -lrt
+rm -rf git_token 
+git add .
+git commit -m "Everything working before challenge"
+git push -u origin master
+git branch challenge1
+git checkout challenge1
+ls -lrta
+vim .bashrc 
+~/.bashrc
+sudo ~/.bashrc
+.bashrc
+git checkout challeng1
+pwd
+git checkout challenge1
+exit
