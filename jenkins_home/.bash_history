@@ -82,3 +82,12 @@ ls -lrt
 ansible-playbook play.yml 
 ansible-playbook -i hosts play.yml 
 exit
+ls -lrt
+cd /var/jenkins_home/ansible/
+ls -lrt
+pwd
+cd,
+cd 
+git status
+pwd
+exit
