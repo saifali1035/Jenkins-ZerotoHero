@@ -140,3 +140,92 @@ vim backup.sh
 docker cp backup.sh remote_host:/home/remote_user/
 cat backup.sh 
 docker exec -it remote_host bash
+vim centos07/Dockerfile 
+vim docker-compose.yml 
+cd centos07/
+ls -lrt
+cd ..
+cd remote_host_home/
+ls -lrt
+pwd
+cd ..
+vim docker-compose.yml 
+docker-compose build
+vim centos07/Dockerfile 
+docker-compose build
+pwd
+docker-compose up -d
+vim remote_host_home/backup.sh 
+sudo yum install git
+sudo apt install git
+git init.
+git init
+ls -lrta
+git status
+git add .
+id git
+ls -lrt
+sudo chown jenkins:jenkins *
+git status
+git add .
+sudo chown -R jenkins:jenkins *
+ls -lrt
+git add .
+git commit -m "First Commit"
+git config --global user.email "saifali1035@gmail.com"
+git config --global user.name "Saif Ali"
+git commit -m "First Commit"
+git remote add origin https://github.com/saifali1035/Jenkins-ZerotoHero.git
+git push origin main
+git remote -v
+git push -u origin master
+git config --global credential.helper store
+git push -u origin master
+git branch -a
+git branch -r
+git status
+ls -lrt
+rm -rf Videos/ Templates/ Public/ Pictures/ Music/ Documents/ Downloads/ Desktop/
+ls -lrt
+git status
+ls -lrt
+cd snap/
+ls -lrt
+cd ..
+rm -rf snap/
+ls -lrt
+git add .
+git commit -m "Second Commit"
+git push -u origin master
+ls -lrt
+docker-compose build
+docker-compose up -d
+docker ps
+ls -lrt
+mkdir jenkins_home/ansible
+cp centos07/remote-key jenkins_home/ansible/
+docker exec -it jenkins bash
+ls -lrt
+vim centos07/Dockerfile 
+pwd
+mkdir jenkins-ansible
+vim jenkins-ansible/Dockerfile
+vim docker-compose.yml 
+docker build
+docker-compose build
+vim centos07/Dockerfile 
+vim jenkins-ansible/Dockerfile
+docker-compose build
+vim jenkins-ansible/Dockerfile
+docker-compose build
+dockerocker
+docker-compose up -d
+docekr ps
+docker ps
+git status
+git add .
+git commit -m "Added ansible to Jenkins container"
+git push -u origin master
+ls -lrt
+echo "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"> git_token
+ls -lrt

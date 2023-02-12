@@ -6,7 +6,7 @@
   <usages>
     <entry>
       <string>db backup to s3</string>
-      <ranges>1-6</ranges>
+      <ranges>1-7</ranges>
     </entry>
   </usages>
   <facets/>

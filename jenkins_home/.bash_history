@@ -55,3 +55,30 @@ ls -lrt
 cd ..
 pwd
 exit
+ansible
+exit
+cd
+ls -lrt
+cd ansible/
+ls -lrt
+exit
+cd 
+ls -lrt
+cd ansible/
+ls -lrt
+ansible -i hosts -m ping
+ansible -i hosts -m ping
+ansible -i hosts -m ping
+ansible -i hosts -m ping test1
+ls -lrt
+ssh -i remote-key remote_user@remote_host
+rm -rf /var/jenkins_home/.ssh/known_hosts 
+ssh -i remote-key remote_user@remote_host
+ansible -i hosts -m ping test1
+exit
+cd
+cd ansible/
+ls -lrt
+ansible-playbook play.yml 
+ansible-playbook -i hosts play.yml 
+exit
