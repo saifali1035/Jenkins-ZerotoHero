@@ -275,3 +275,142 @@ git checkout challeng1
 pwd
 git checkout challenge1
 exit
+git status
+git add .
+git commit -m "Added line in bashrc file to show git branch"
+git push -u origin master
+git push -u origin challenge1
+git checkout master
+git status
+git add .
+git commit -m "Added line in bashrc file to show git branch"
+
+git push -u origin challenge1
+git checkout master
+cat .git-credentials 
+git add .
+git commit -m "Added line in bashrc file to show git branch"
+git push -u origin challenge1
+git checkout master
+git checkout challenge1
+ls -rlt
+vim challenge1.txt
+ls -lrt
+docker-compose ps
+ls -lrt
+cd jenkins_home/
+ls -lrt
+cd ..
+cat docker-compose.yml 
+ls -lrt
+cd centos07/
+ls -lrt
+cd ..
+cd remote_host_home/
+ls -lrt
+vi datafeed.sh
+vi datafeed.sh 
+cd ..
+ls -lrt
+sudo chmod -R 777 db_home/
+ls
+cd remote_host_home/
+ls -rlt
+vim datafeed.sh 
+sh datafeed.sh Wasim Raja 10
+vim datafeed.sh 
+sh datafeed.sh Wasim Raja 10
+vim datafeed.sh 
+chmod 777 datafeed.sh 
+cd 
+vim docker-compose.yml 
+docker exec -it remote_host bash
+docker-compose up -d
+docker exec -it remote_host bash
+vim docker-compose.yml 
+docker cp remote_host_home/datafeed.sh remote_host:/home/remote_user
+docker exec -it remote_host bash
+ls -lrt
+vim remote_host_home/datafeed.sh 
+docker exec -it remote_host bash
+docker-compose up -d
+docker cp remote_host_home/datafeed.sh remote_host:/home/remote_user
+docker exec -it remote_host bash
+vim remote_host_home/datafeed.sh 
+docker cp remote_host_home/datafeed.sh remote_host:/home/remote_user
+docker exec -it remote_host bash
+vim remote_host_home/datafeed.sh 
+docker cp remote_host_home/datafeed.sh remote_host:/home/remote_user
+vim remote_host_home/datafeed.sh 
+docker cp remote_host_home/datafeed.sh remote_host:/home/remote_user
+docker exec -it remote_host bash
+vim remote_host_home/dataselect.sh 
+docker cp remote_host_home/dataselect.sh.sh remote_host:/home/remote_user
+docker cp remote_host_home/dataselect.sh remote_host:/home/remote_user
+docker exec -it remote_host bash
+vim remote_host_home/dataselect.sh 
+docker cp remote_host_home/dataselect.sh remote_host:/home/remote_user
+docker exec -it remote_host bash
+vim remote_host_home/dataselect.sh 
+docker cp remote_host_home/dataselect.sh remote_host:/home/remote_user
+docker exec -it remote_host bash
+vim remote_host_home/dataselect.sh 
+docker exec -it remote_host bash
+vim remote_host_home/dataselect.sh 
+docker cp remote_host_home/dataselect.sh remote_host:/home/remote_user
+vim remote_host_home/dataselect.sh 
+docker exec -it remote_host bash
+chmod 777 remote_host_home/dataselect.sh 
+docker cp remote_host_home/dataselect.sh remote_host:/home/remote_user
+vim remote_host_home/dataselect.sh 
+vim dataselect.sh
+mv dataselect.sh dataselect.php
+vim dataselect.php 
+cat remote_host_home/dataselect.sh
+vim dataselect.php 
+vim d
+vim centos07/Dockerfile 
+docker-compose build
+docker-compose up
+docker-compose up -d
+clear
+ls -lrt
+docker cp dataselect.php remote_host:/home/remote_user
+docker exec -it remote_host bash
+ls -lrt
+rm -rf dataselect.php 
+ls -lrt
+vim remote_host_home/dataselect.sh 
+docker cp remote_host_home/dataselect.sh remote_host:/home/remote_user
+vim remote_host_home/dataselect.sh 
+docker cp remote_host_home/dataselect.sh remote_host:/home/remote_user
+vim docker-compose.yml 
+docker-compose up
+docker-compose up -d
+docker-compose ps
+ls -lrt
+sudo chmod 777 web_server_home/
+sudo chmod -R 777 web_server_home/
+sudo chown -R jenkin:jenkins web_server_home/
+sudo chown -R jenkins:jenkins web_server_home/
+ls -lrt
+cd web_server_home/
+ls -lrt
+ls -lrta
+docker exec -it web_server bash
+vim docker-compose.yml 
+ls -lrt
+cd ..
+vim docker-compose.yml 
+docker-compose up
+docker ps
+docker-compose up -d
+ls -lrt
+ls web_server_home/
+echo hello> index.html
+ls -lrt
+docker exec -it web_server bash
+docker cp centos07/remote-key.pub web_server:/root/.ssh/authorized_keys
+docker exec -it remote_host bash
+docker cp centos07/remote-key remote_host:/tmp/key
+docker exec -it remote_host bash

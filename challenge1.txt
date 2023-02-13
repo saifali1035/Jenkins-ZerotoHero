@@ -1,0 +1,14 @@
+Challenge 1:
+
+>Suppose Application which register a lot of user
+
+> user ( Fname , Lname and age )
+
+> Jenkins create a job to find how many of my user have a
+certain age and similiar ques
+
+pass parameter 
+
+> jenkins should build a table with the output in php and 
+display same in a web server
+

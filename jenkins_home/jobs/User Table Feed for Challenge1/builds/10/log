@@ -1,0 +1,16 @@
+Started by user [8mha:////4OOX9pJOArpKNR7Y/uk2JCDwOieTCHD44SAdW8aRsCRjAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZe/dLi1CL9rNS87My8YgAThaClwgAAAA==[0msaif Ali
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/User Table Feed for Challenge1
+[SSH] script:
+FName="Raj"
+Age="10"
+LName="Kumar"
+
+/home/remote_user/datafeed.sh $FName $LName $Age
+
+[SSH] executing...
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

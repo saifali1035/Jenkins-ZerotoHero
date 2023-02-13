@@ -19,6 +19,7 @@ services:
       context: centos07
     volumes:
       - "$PWD/remote_host_home/backup.sh:/home/remote_user/backup.sh"
+      - "$PWD/remote_host_home/datafeed.sh:/homr/remote_user/datafeed.sh"
     networks:
       - net
 
@@ -31,6 +32,16 @@ services:
       - net
     environment:
       MYSQL_ROOT_PASSWORD : 1234
+
+  web_server:
+    container_name: web_server
+    image: nginx
+    volumes:
+      - "$PWD/web_server_home:/usr/share/nginx/html/"
+    ports:
+      - "80:80"
+    networks:
+      - net
 
 
 networks:

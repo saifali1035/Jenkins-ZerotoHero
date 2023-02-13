@@ -1,0 +1,21 @@
+Started by user [8mha:////4OOX9pJOArpKNR7Y/uk2JCDwOieTCHD44SAdW8aRsCRjAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZe/dLi1CL9rNS87My8YgAThaClwgAAAA==[0msaif Ali
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Challenge1 Job
+[SSH] script:
+Age="10"
+
+/home/remote_user/dataselect.sh $Age
+
+[SSH] executing...
+Fname	Lname	Age
+Kaif	Ali	10
+Kaif	Shah	10
+Ilma	Shaiqa	10
+Saif	Khan	10
+Raj	Kumar	10
+Faisal	Shah	10
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

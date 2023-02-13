@@ -34,4 +34,10 @@ pip3.8 install awscli --upgrade
 #install mysql
 RUN yum -y install mysql
 
+RUN yum -y install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+
+RUN yum-config-manager --enable remi-php81 
+
+RUN yum -y install php
+
 CMD /usr/sbin/sshd -D

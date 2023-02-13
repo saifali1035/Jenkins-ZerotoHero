@@ -12,11 +12,11 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1676179890,,"wq"
+|2,0,1676187314,,"wq"
+:q!
+|2,0,1676187289,,"q!"
 :Wq
 |2,0,1676049008,,"Wq"
-:q!
-|2,0,1676041937,,"q!"
 
 # Search String History (newest to oldest):
 
@@ -27,262 +27,465 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
-	USER jenkins
-|3,1,1,1,1,0,1676107159,"USER jenkins"
+"1	LINE	0
+	# Set the internal file separator to newline.
+|3,0,1,1,1,0,1676186449,"# Set the internal file separator to newline."
 "2	LINE	0
-	RUN curl -O https://bootstrap.pypa.io/get-pip.py && \
-|3,0,2,1,1,0,1676107108,"RUN curl -O https://bootstrap.pypa.io/get-pip.py && \\"
+	IFS=$'\n'
+|3,0,2,1,1,0,1676186448,"IFS=$'\\n'"
 "3	LINE	0
-	python get-pip.py && \
-|3,0,3,1,1,0,1676107107,"python get-pip.py && \\"
+	
+|3,0,3,1,1,0,1676186448,""
 "4	LINE	0
-	pip install ansible --upgrade
-|3,0,4,1,1,0,1676107106,"pip install ansible --upgrade"
+	echo "<table>"
+|3,0,4,1,1,0,1676186447,"echo \"<table>\""
 "5	LINE	0
-	RUN  yum -y install epel-release && \
-|3,0,5,1,1,0,1676107022,"RUN  yum -y install epel-release && \\"
+	
+|3,0,5,1,1,0,1676186447,""
 "6	LINE	0
-	m -y install ansible
-|3,0,6,1,1,0,1676107019,"m -y install ansible"
+	# Loop over each row.
+|3,0,6,1,1,0,1676186446,"# Loop over each row."
 "7	LINE	0
-	
-|3,0,7,1,1,0,1676103366,""
+	for line in $(mysql -N ... < )
+|3,0,7,1,1,0,1676186446,"for line in $(mysql -N ... < )"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1676103337,""
+	do
+|3,0,8,1,1,0,1676186446,"do"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1676103336,""
-"-	CHAR	0
-	u
-|3,0,36,0,1,0,1676107018,"u"
+	  echo "  <tr>"
+|3,0,9,1,1,0,1676186446,"  echo \"  <tr>\""
+""-	CHAR	0
+	t
+|3,1,36,0,1,0,1676186504,"t"
 
 # File marks:
-'0  125  0  ~/.bashrc
-|4,48,125,0,1676179890,"~/.bashrc"
-'1  3  51  ~/jenkins-ansible/play.yml
-|4,49,3,51,1676116551,"~/jenkins-ansible/play.yml"
-'2  5  116  ~/jenkins-ansible/hosts
-|4,50,5,116,1676116205,"~/jenkins-ansible/hosts"
-'3  5  80  ~/jenkins-ansible/hosts
-|4,51,5,80,1676116142,"~/jenkins-ansible/hosts"
-'4  5  54  ~/jenkins-ansible/hosts
-|4,52,5,54,1676116076,"~/jenkins-ansible/hosts"
-'5  5  54  ~/jenkins-ansible/hosts
-|4,53,5,54,1676116076,"~/jenkins-ansible/hosts"
-'6  7  0  ~/jenkins-ansible/Dockerfile
-|4,54,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
-'7  5  0  ~/jenkins-ansible/Dockerfile
-|4,55,5,0,1676107066,"~/jenkins-ansible/Dockerfile"
-'8  8  0  ~/jenkins-ansible/Dockerfile
-|4,56,8,0,1676107066,"~/jenkins-ansible/Dockerfile"
-'9  22  0  ~/centos07/Dockerfile
-|4,57,22,0,1676106982,"~/centos07/Dockerfile"
+'0  40  51  ~/docker-compose.yml
+|4,48,40,51,1676187314,"~/docker-compose.yml"
+'1  1  0  ~/web_server_home/docker-compose.yml
+|4,49,1,0,1676187289,"~/web_server_home/docker-compose.yml"
+'2  44  10  ~/docker-compose.yml
+|4,50,44,10,1676186834,"~/docker-compose.yml"
+'3  44  10  ~/docker-compose.yml
+|4,51,44,10,1676186834,"~/docker-compose.yml"
+'4  4  92  ~/remote_host_home/dataselect.sh
+|4,52,4,92,1676186505,"~/remote_host_home/dataselect.sh"
+'5  4  8  ~/remote_host_home/dataselect.sh
+|4,53,4,8,1676186465,"~/remote_host_home/dataselect.sh"
+'6  42  0  ~/centos07/Dockerfile
+|4,54,42,0,1676185840,"~/centos07/Dockerfile"
+'7  1  0  ~/d
+|4,55,1,0,1676185744,"~/d"
+'8  1  4  ~/dataselect.php
+|4,56,1,4,1676185642,"~/dataselect.php"
+'9  43  1  ~/dataselect.php
+|4,57,43,1,1676185400,"~/dataselect.php"
 
 # Jumplist (newest first):
--'  125  0  ~/.bashrc
-|4,39,125,0,1676179890,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1676179854,"~/.bashrc"
--'  3  51  ~/jenkins-ansible/play.yml
-|4,39,3,51,1676116551,"~/jenkins-ansible/play.yml"
--'  3  51  ~/jenkins-ansible/play.yml
-|4,39,3,51,1676116551,"~/jenkins-ansible/play.yml"
--'  1  0  ~/jenkins-ansible/play.yml
-|4,39,1,0,1676116468,"~/jenkins-ansible/play.yml"
--'  1  0  ~/jenkins-ansible/play.yml
-|4,39,1,0,1676116468,"~/jenkins-ansible/play.yml"
--'  5  116  ~/jenkins-ansible/hosts
-|4,39,5,116,1676116205,"~/jenkins-ansible/hosts"
--'  5  116  ~/jenkins-ansible/hosts
-|4,39,5,116,1676116205,"~/jenkins-ansible/hosts"
--'  5  116  ~/jenkins-ansible/hosts
-|4,39,5,116,1676116205,"~/jenkins-ansible/hosts"
--'  5  116  ~/jenkins-ansible/hosts
-|4,39,5,116,1676116205,"~/jenkins-ansible/hosts"
--'  5  80  ~/jenkins-ansible/hosts
-|4,39,5,80,1676116142,"~/jenkins-ansible/hosts"
--'  5  80  ~/jenkins-ansible/hosts
-|4,39,5,80,1676116142,"~/jenkins-ansible/hosts"
--'  5  80  ~/jenkins-ansible/hosts
-|4,39,5,80,1676116142,"~/jenkins-ansible/hosts"
--'  5  80  ~/jenkins-ansible/hosts
-|4,39,5,80,1676116142,"~/jenkins-ansible/hosts"
--'  5  54  ~/jenkins-ansible/hosts
-|4,39,5,54,1676116076,"~/jenkins-ansible/hosts"
--'  5  54  ~/jenkins-ansible/hosts
-|4,39,5,54,1676116076,"~/jenkins-ansible/hosts"
--'  5  54  ~/jenkins-ansible/hosts
-|4,39,5,54,1676116076,"~/jenkins-ansible/hosts"
--'  5  54  ~/jenkins-ansible/hosts
-|4,39,5,54,1676116076,"~/jenkins-ansible/hosts"
--'  1  0  ~/jenkins-ansible/hosts
-|4,39,1,0,1676115878,"~/jenkins-ansible/hosts"
--'  1  0  ~/jenkins-ansible/hosts
-|4,39,1,0,1676115878,"~/jenkins-ansible/hosts"
--'  1  0  ~/jenkins-ansible/hosts
-|4,39,1,0,1676115878,"~/jenkins-ansible/hosts"
--'  1  0  ~/jenkins-ansible/hosts
-|4,39,1,0,1676115878,"~/jenkins-ansible/hosts"
--'  1  0  ~/jenkins-ansible/hosts
-|4,39,1,0,1676115878,"~/jenkins-ansible/hosts"
--'  1  0  ~/jenkins-ansible/hosts
-|4,39,1,0,1676115878,"~/jenkins-ansible/hosts"
--'  1  0  ~/jenkins-ansible/hosts
-|4,39,1,0,1676115878,"~/jenkins-ansible/hosts"
--'  1  0  ~/jenkins-ansible/hosts
-|4,39,1,0,1676115878,"~/jenkins-ansible/hosts"
--'  1  0  ~/jenkins-ansible/hosts
-|4,39,1,0,1676115878,"~/jenkins-ansible/hosts"
--'  1  0  ~/jenkins-ansible/hosts
-|4,39,1,0,1676115878,"~/jenkins-ansible/hosts"
--'  1  0  ~/jenkins-ansible/hosts
-|4,39,1,0,1676115878,"~/jenkins-ansible/hosts"
--'  1  0  ~/jenkins-ansible/hosts
-|4,39,1,0,1676115878,"~/jenkins-ansible/hosts"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  7  0  ~/jenkins-ansible/Dockerfile
-|4,39,7,0,1676107164,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  5  0  ~/jenkins-ansible/Dockerfile
-|4,39,5,0,1676107094,"~/jenkins-ansible/Dockerfile"
--'  8  0  ~/jenkins-ansible/Dockerfile
-|4,39,8,0,1676107066,"~/jenkins-ansible/Dockerfile"
--'  8  0  ~/jenkins-ansible/Dockerfile
-|4,39,8,0,1676107066,"~/jenkins-ansible/Dockerfile"
--'  8  0  ~/jenkins-ansible/Dockerfile
-|4,39,8,0,1676107066,"~/jenkins-ansible/Dockerfile"
--'  8  0  ~/jenkins-ansible/Dockerfile
-|4,39,8,0,1676107066,"~/jenkins-ansible/Dockerfile"
--'  8  0  ~/jenkins-ansible/Dockerfile
-|4,39,8,0,1676107066,"~/jenkins-ansible/Dockerfile"
--'  8  0  ~/jenkins-ansible/Dockerfile
-|4,39,8,0,1676107066,"~/jenkins-ansible/Dockerfile"
+-'  40  51  ~/docker-compose.yml
+|4,39,40,51,1676187314,"~/docker-compose.yml"
+-'  44  10  ~/docker-compose.yml
+|4,39,44,10,1676187302,"~/docker-compose.yml"
+-'  1  0  ~/web_server_home/docker-compose.yml
+|4,39,1,0,1676187289,"~/web_server_home/docker-compose.yml"
+-'  1  0  ~/web_server_home/docker-compose.yml
+|4,39,1,0,1676187289,"~/web_server_home/docker-compose.yml"
+-'  44  10  ~/docker-compose.yml
+|4,39,44,10,1676186834,"~/docker-compose.yml"
+-'  44  10  ~/docker-compose.yml
+|4,39,44,10,1676186834,"~/docker-compose.yml"
+-'  22  72  ~/docker-compose.yml
+|4,39,22,72,1676186706,"~/docker-compose.yml"
+-'  22  72  ~/docker-compose.yml
+|4,39,22,72,1676186706,"~/docker-compose.yml"
+-'  22  72  ~/docker-compose.yml
+|4,39,22,72,1676186706,"~/docker-compose.yml"
+-'  4  92  ~/remote_host_home/dataselect.sh
+|4,39,4,92,1676186505,"~/remote_host_home/dataselect.sh"
+-'  4  92  ~/remote_host_home/dataselect.sh
+|4,39,4,92,1676186505,"~/remote_host_home/dataselect.sh"
+-'  4  92  ~/remote_host_home/dataselect.sh
+|4,39,4,92,1676186505,"~/remote_host_home/dataselect.sh"
+-'  4  92  ~/remote_host_home/dataselect.sh
+|4,39,4,92,1676186505,"~/remote_host_home/dataselect.sh"
+-'  4  92  ~/remote_host_home/dataselect.sh
+|4,39,4,92,1676186505,"~/remote_host_home/dataselect.sh"
+-'  4  92  ~/remote_host_home/dataselect.sh
+|4,39,4,92,1676186505,"~/remote_host_home/dataselect.sh"
+-'  4  92  ~/remote_host_home/dataselect.sh
+|4,39,4,92,1676186505,"~/remote_host_home/dataselect.sh"
+-'  4  92  ~/remote_host_home/dataselect.sh
+|4,39,4,92,1676186505,"~/remote_host_home/dataselect.sh"
+-'  4  8  ~/remote_host_home/dataselect.sh
+|4,39,4,8,1676186465,"~/remote_host_home/dataselect.sh"
+-'  4  8  ~/remote_host_home/dataselect.sh
+|4,39,4,8,1676186465,"~/remote_host_home/dataselect.sh"
+-'  4  8  ~/remote_host_home/dataselect.sh
+|4,39,4,8,1676186465,"~/remote_host_home/dataselect.sh"
+-'  4  8  ~/remote_host_home/dataselect.sh
+|4,39,4,8,1676186465,"~/remote_host_home/dataselect.sh"
+-'  4  8  ~/remote_host_home/dataselect.sh
+|4,39,4,8,1676186465,"~/remote_host_home/dataselect.sh"
+-'  4  8  ~/remote_host_home/dataselect.sh
+|4,39,4,8,1676186465,"~/remote_host_home/dataselect.sh"
+-'  4  8  ~/remote_host_home/dataselect.sh
+|4,39,4,8,1676186465,"~/remote_host_home/dataselect.sh"
+-'  4  8  ~/remote_host_home/dataselect.sh
+|4,39,4,8,1676186465,"~/remote_host_home/dataselect.sh"
+-'  3  0  ~/remote_host_home/dataselect.sh
+|4,39,3,0,1676186456,"~/remote_host_home/dataselect.sh"
+-'  3  0  ~/remote_host_home/dataselect.sh
+|4,39,3,0,1676186456,"~/remote_host_home/dataselect.sh"
+-'  3  0  ~/remote_host_home/dataselect.sh
+|4,39,3,0,1676186456,"~/remote_host_home/dataselect.sh"
+-'  3  0  ~/remote_host_home/dataselect.sh
+|4,39,3,0,1676186456,"~/remote_host_home/dataselect.sh"
+-'  3  0  ~/remote_host_home/dataselect.sh
+|4,39,3,0,1676186456,"~/remote_host_home/dataselect.sh"
+-'  3  0  ~/remote_host_home/dataselect.sh
+|4,39,3,0,1676186456,"~/remote_host_home/dataselect.sh"
+-'  3  0  ~/remote_host_home/dataselect.sh
+|4,39,3,0,1676186456,"~/remote_host_home/dataselect.sh"
+-'  3  0  ~/remote_host_home/dataselect.sh
+|4,39,3,0,1676186456,"~/remote_host_home/dataselect.sh"
+-'  3  0  ~/remote_host_home/dataselect.sh
+|4,39,3,0,1676186456,"~/remote_host_home/dataselect.sh"
+-'  3  0  ~/remote_host_home/dataselect.sh
+|4,39,3,0,1676186456,"~/remote_host_home/dataselect.sh"
+-'  3  0  ~/remote_host_home/dataselect.sh
+|4,39,3,0,1676186456,"~/remote_host_home/dataselect.sh"
+-'  3  0  ~/remote_host_home/dataselect.sh
+|4,39,3,0,1676186456,"~/remote_host_home/dataselect.sh"
+-'  3  0  ~/remote_host_home/dataselect.sh
+|4,39,3,0,1676186456,"~/remote_host_home/dataselect.sh"
+-'  3  0  ~/remote_host_home/dataselect.sh
+|4,39,3,0,1676186456,"~/remote_host_home/dataselect.sh"
+-'  3  0  ~/remote_host_home/dataselect.sh
+|4,39,3,0,1676186456,"~/remote_host_home/dataselect.sh"
+-'  3  0  ~/remote_host_home/dataselect.sh
+|4,39,3,0,1676186456,"~/remote_host_home/dataselect.sh"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  42  0  ~/centos07/Dockerfile
+|4,39,42,0,1676185840,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
+-'  22  0  ~/centos07/Dockerfile
+|4,39,22,0,1676185752,"~/centos07/Dockerfile"
 
 # History of marks within files (newest to oldest):
+
+> ~/docker-compose.yml
+	*	1676187313	0
+	"	40	51
+	^	40	52
+	.	40	51
+	+	9	45
+	+	48	5
+	+	2	7
+	+	8	10
+	+	25	0
+	+	18	9
+	+	19	5
+	+	23	0
+	+	46	0
+	+	27	27
+	+	45	0
+	+	30	37
+	+	34	31
+	+	21	68
+	+	5	26
+	+	7	29
+	+	22	72
+	+	44	10
+	+	40	51
+
+> ~/web_server_home/docker-compose.yml
+	*	1676187288	0
+	"	1	0
+
+> ~/remote_host_home/dataselect.sh
+	*	1676186505	0
+	"	4	92
+	^	4	9
+	.	4	93
+	+	1	120
+	+	1	0
+	+	2	7
+	+	4	82
+	+	2	0
+	+	4	111
+	+	7	14
+	+	6	0
+	+	7	29
+	+	7	0
+	+	4	8
+	+	4	93
+
+> ~/centos07/Dockerfile
+	*	1676185840	0
+	"	42	0
+	^	42	0
+	.	41	22
+	+	43	20
+	+	18	15
+	+	14	33
+	+	7	0
+	+	7	35
+	+	13	37
+	+	14	52
+	+	13	8
+	+	22	3
+	+	21	4
+	+	32	4
+	+	43	0
+	+	43	73
+	+	43	8
+	+	32	17
+	+	39	4
+	+	39	0
+	+	39	79
+	+	39	3
+	+	39	0
+	+	39	22
+	+	39	26
+	+	39	21
+	+	39	10
+	+	39	8
+	+	32	0
+	+	39	0
+	+	32	32
+	+	35	24
+	+	39	0
+	+	25	48
+	+	26	0
+	+	27	0
+	+	28	3
+	+	32	0
+	+	31	18
+	+	25	4
+	+	26	4
+	+	27	4
+	+	30	5
+	+	32	0
+	+	32	9
+	+	43	7
+	+	43	0
+	+	4	28
+	+	6	0
+	+	5	44
+	+	6	0
+	+	7	0
+	+	8	0
+	+	7	36
+	+	8	0
+	+	3	29
+	+	9	33
+	+	12	32
+	+	13	64
+	+	15	0
+	+	16	19
+	+	17	37
+	+	19	0
+	+	20	16
+	+	21	36
+	+	23	1
+	+	24	15
+	+	27	0
+	+	25	48
+	+	26	66
+	+	27	0
+	+	28	67
+	+	29	0
+	+	29	30
+	+	30	53
+	+	31	0
+	+	32	0
+	+	31	19
+	+	32	0
+	+	24	23
+	+	34	13
+	+	43	0
+	+	7	33
+	+	21	0
+	+	22	0
+	+	37	10
+	+	40	0
+	+	39	43
+	+	41	22
+
+> ~/d
+	*	1676185743	0
+	"	1	0
+
+> ~/dataselect.php
+	*	1676185641	0
+	"	1	4
+	^	1	5
+	.	71	29
+	+	11	0
+	+	1	1
+	+	2	19
+	+	4	16
+	+	5	24
+	+	12	0
+	+	13	20
+	+	14	33
+	+	27	57
+	+	27	109
+	+	27	56
+	+	28	0
+	+	90	6
+	+	44	0
+	+	61	4
+	+	62	0
+	+	61	12
+	+	60	15
+	+	59	21
+	+	58	17
+	+	71	6
+	+	74	0
+	+	71	48
+	+	73	0
+	+	72	30
+	+	70	32
+	+	71	29
+
+> ~/dataselect.sh
+	*	1676185135	0
+	"	35	1
+	^	35	2
+	.	35	1
+	+	35	1
+
+> ~/remote_host_home/datafeed.sh
+	*	1676183903	0
+	"	6	120
+	^	6	121
+	.	6	116
+	+	6	31
+	+	4	5
+	+	6	93
+	+	6	34
+	+	6	115
+	+	4	6
+	+	6	116
+
+> ~/challenge1.txt
+	*	1676180672	0
+	"	14	0
+	^	14	0
+	.	13	28
+	+	13	28
 
 > ~/.bashrc
 	*	1676179888	0
@@ -321,116 +524,6 @@
 	+	9	0
 	+	8	0
 	+	6	0
-
-> ~/centos07/Dockerfile
-	*	1676106982	0
-	"	22	0
-	^	22	1
-	.	22	0
-	+	37	20
-	+	18	15
-	+	14	33
-	+	7	0
-	+	7	35
-	+	13	37
-	+	14	52
-	+	13	8
-	+	22	3
-	+	21	4
-	+	32	4
-	+	37	0
-	+	37	73
-	+	37	8
-	+	32	17
-	+	36	4
-	+	36	0
-	+	36	79
-	+	36	3
-	+	36	0
-	+	36	22
-	+	36	26
-	+	36	21
-	+	36	10
-	+	36	8
-	+	32	0
-	+	36	0
-	+	32	32
-	+	35	24
-	+	36	0
-	+	25	48
-	+	26	0
-	+	27	0
-	+	28	3
-	+	32	0
-	+	31	18
-	+	25	4
-	+	26	4
-	+	27	4
-	+	30	5
-	+	32	0
-	+	32	9
-	+	37	7
-	+	37	0
-	+	4	28
-	+	6	0
-	+	5	44
-	+	6	0
-	+	7	0
-	+	8	0
-	+	7	36
-	+	8	0
-	+	3	29
-	+	9	33
-	+	12	32
-	+	13	64
-	+	15	0
-	+	16	19
-	+	17	37
-	+	19	0
-	+	20	16
-	+	21	36
-	+	23	1
-	+	24	15
-	+	27	0
-	+	25	48
-	+	26	66
-	+	27	0
-	+	28	67
-	+	29	0
-	+	29	30
-	+	30	53
-	+	31	0
-	+	32	0
-	+	31	19
-	+	32	0
-	+	24	23
-	+	34	13
-	+	37	0
-	+	7	33
-	+	21	0
-	+	22	0
-
-> ~/docker-compose.yml
-	*	1676106883	0
-	"	7	29
-	^	7	30
-	.	7	29
-	+	9	45
-	+	37	5
-	+	2	7
-	+	8	10
-	+	24	0
-	+	18	9
-	+	19	5
-	+	22	0
-	+	35	0
-	+	26	27
-	+	34	0
-	+	29	37
-	+	33	31
-	+	21	68
-	+	5	26
-	+	7	29
 
 > ~/remote_host_home/backup.sh
 	*	1676104702	0

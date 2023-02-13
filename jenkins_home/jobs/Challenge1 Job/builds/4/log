@@ -1,0 +1,14 @@
+Started by user [8mha:////4OOX9pJOArpKNR7Y/uk2JCDwOieTCHD44SAdW8aRsCRjAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZe/dLi1CL9rNS87My8YgAThaClwgAAAA==[0msaif Ali
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/Challenge1 Job
+[SSH] script:
+Age="10"
+
+/home/remote_user/dataselect.sh $Age
+
+[SSH] executing...
+<TABLE BORDER=1><TR><TH>Fname</TH><TH>Lname</TH><TH>Age</TH></TR><TR><TD>Kaif</TD><TD>Ali</TD><TD>10</TD></TR><TR><TD>Kaif</TD><TD>Shah</TD><TD>10</TD></TR><TR><TD>Ilma</TD><TD>Shaiqa</TD><TD>10</TD></TR><TR><TD>Saif</TD><TD>Khan</TD><TD>10</TD></TR><TR><TD>Raj</TD><TD>Kumar</TD><TD>10</TD></TR><TR><TD>Faisal</TD><TD>Shah</TD><TD>10</TD></TR></TABLE>
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

@@ -1,0 +1,16 @@
+Started by user [8mha:////4OOX9pJOArpKNR7Y/uk2JCDwOieTCHD44SAdW8aRsCRjAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgZe/dLi1CL9rNS87My8YgAThaClwgAAAA==[0msaif Ali
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/User Table Feed for Challenge1
+[SSH] script:
+Age="10"
+
+/home/remote_user/datafeed.sh $Fname $Lname $Age
+
+[SSH] executing...
+ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+
+[SSH] completed
+[SSH] exit-status: 1
+
+Build step 'Execute shell script on remote host using ssh' marked build as failure
+Finished: FAILURE
