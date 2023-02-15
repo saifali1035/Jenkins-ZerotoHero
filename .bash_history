@@ -414,3 +414,13 @@ docker cp centos07/remote-key.pub web_server:/root/.ssh/authorized_keys
 docker exec -it remote_host bash
 docker cp centos07/remote-key remote_host:/tmp/key
 docker exec -it remote_host bash
+cd
+ls -lrt
+docker exec -it remote_host bash
+git status
+ls -lrta
+l s-lrt
+ls -lrt
+git add .
+git commit -m "Challenge - only nginx pending"
+git push -u origin challenge1
